@@ -47,13 +47,13 @@ print("Damage: ", my_damage)
 
 while True:
     dragon_hp = dragon_hp - my_damage
-    print("Dragon took", my_damage, "points of damage from",my_character, "!", "(", "Dragon", "HP:", dragon_hp, ")")
+    print("Dragon took", my_damage, "points of damage from", my_character, "!", "(", "Dragon", "HP:", dragon_hp, ")")
     if(dragon_hp <= 0):
         print("The Dragon has lost the battle")
         break
 
     my_hp = my_hp - dragon_damage
-    print(my_character, "took", dragon_damage,"points of damage from Dragon! ", "(", my_character, "HP:", my_hp, ")")
+    print(my_character, "took", dragon_damage, "points of damage from Dragon! ", "(", my_character, "HP:", my_hp, ")")
     if(my_hp <= 0):
         print(my_character, "has lost the battle.")
         break
